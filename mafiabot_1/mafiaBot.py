@@ -14,7 +14,7 @@ mafia = {}
 commisioner = {}
 doctor = {}
 
-bot = telebot.TeleBot('7342403771:AAF77kQmFiTGAIIiw9iKrQ4by5RRi3bE_pA')
+bot = telebot.TeleBot('token')
 connection = sl.connect('my_database.db')
 cursor = connection.cursor()
 cursor.execute('''
