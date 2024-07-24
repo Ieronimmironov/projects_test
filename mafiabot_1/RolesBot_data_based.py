@@ -12,7 +12,7 @@ chat = {}
 
 games = ['', '', '']
 
-bot = telebot.TeleBot('6765293063:AAEQb52ZBWsug9gugYFHJAO0P92tjx6SKUY')
+bot = telebot.TeleBot('token')
 
 connection = sl.connect('my_database.db')
 cursor = connection.cursor()
